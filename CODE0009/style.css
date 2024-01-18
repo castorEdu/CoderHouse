@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: inline;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 10rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+    width: 100%;
+    height: 13rem;
+    padding-top: 3rem;
+}
+button{
+    width: 4rem;
+    height: 2rem;
+}
+input{
+    appearance: none;
+    height: 7rem;
+    width: 50rem;
+    border: none;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    outline: 0;
+    font-size: 5rem;
+    text-align: center;
+}
+input:focus{
+    border-bottom: 2px solid rgb(63, 161, 140);
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 8rem;
+}
+button{
+    border: 1px solid rgb(63, 161, 140);
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 6rem;
+    height: 2rem;
+    color: rgb(63, 161, 140);
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+}
+.historico-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+button:hover{
+    color: whitesmoke;
+    background-color: rgb(63, 161, 140);
+}
+#historico{
+    text-align: center;
+    font-size: 2rem;
+    width: 50rem;
+    border-left: 1px solid rgb(63, 161, 140);
+    border-right: 1px solid rgb(63, 161, 140);
+}
+.item{
+    text-align: center;
+    font-size: 1rem;
+}

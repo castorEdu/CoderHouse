@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@500&family=Roboto+Mono&display=swap" rel="stylesheet">
+<body>
+    <div class="header">
+        <div class="content">
+            <input id="txt" type="text" onInput="getValue()">
+            <button onclick="setMessage()">=</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="div-valor">
+            <h1 id="valor"></h1>
+        </div>
+    </div>
+    <div class="historico-container">
+        <div id="historico">
+            <p>Histórico</p>
+            <div class="item"></div>
+        </div>
+    </div>
+</body>
+</html>

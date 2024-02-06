@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flexbox;
+}
+#tabuleiro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tab{
+    display: flex;    
+    width: 45rem;
+    height: 45rem;
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+}
+#A1,#B1,#A2,#B2{
+    width: 15rem;
+    height: 15rem;
+    border-right: 0.5rem solid rgb(200, 200, 200);
+    border-bottom: 0.5rem solid rgb(200, 200, 200);
+    border-radius: 2rem;
+}
+#C1,#C2{
+    width: 15rem;
+    height: 15rem;
+    border-bottom: 0.5rem solid rgb(200, 200, 200);
+    border-radius: 2rem;
+}
+#A3,#B3{
+    width: 15rem;
+    height: 15rem;
+    border-right: 0.5rem solid rgb(200, 200, 200);
+    border-radius: 2rem;
+}
+#C3{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 2rem;
+    border-bottom: 0.5rem solid rgb(200, 200, 200);
+    border-right: 0.5rem solid rgb(200, 200, 200);
+}
+.linha{
+    display: flexbox;
+    text-align: center;
+    font-size: 13rem;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+.jogadores{
+    margin-right: 4rem;
+    margin-left: 4rem;
+    height: 3rem;
+    appearance: none;
+    border: none;
+    outline: 0;
+    font-size: 1.5rem;
+}
+#player1{
+    border-bottom: 2px solid blue;
+}
+#player2{
+    border-bottom: 2px solid red;
+}
+.color-red{
+    background-color: rgb(255, 230, 230);
+}
+.color-blue{
+    background-color: rgb(214, 225, 255);
+}

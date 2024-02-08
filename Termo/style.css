@@ -1,0 +1,104 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.container{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.containerDueto{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.box{
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    font-size: 2.7rem;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+    border-bottom: 2px solid rgb(215, 154, 255);
+}
+.nav{
+    display: flex;
+    text-align: center;
+}
+.teste{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+}
+.acertouLetra{
+    background-color: green;
+}
+.existeLetra{
+    background-color: orange;
+}
+.jogos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25rem;
+}
+.nav-config{
+    display: flex;
+    justify-content: flex-end;
+    width: 25rem;
+    align-items: center;
+}
+#configuracao{
+    display: flex;
+    justify-content: flex-end;
+}
+#config-panel{
+    background-color: red;
+    width: 50rem;
+    height: 10rem;
+}
+#panel{
+    display: flex;
+    justify-content: space-around;
+}
+.visible{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+    
+}
+button{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Honk', system-ui;
+    font-size: 2rem;
+}
+#game-config{
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    margin-bottom: 1rem;
+
+}
+.nome{
+    width: 70rem;
+}
+.qtdLetras{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(248, 248, 248);
+    width: 30rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+p{
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    visibility: hidden;
+}
